@@ -37,3 +37,5 @@ docker login
 docker tag serverdocker:latest eduardgabriel/serverdocker:latest
 
 docker push eduardgabriel/serverdocker:latest
+
+docker image inspect eduardgabriel/serverdocker:latest
