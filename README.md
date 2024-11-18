@@ -30,6 +30,8 @@ docker restart eager_cray
 
 & "C:\Program Files\Google\Chrome\Application\chrome.exe" --incognito --host-resolver-rules="MAP serverwebdaw localhost" --ignore-certificate-errors
 
+google-chrome --incognito --host-resolver-rules="MAP serverwebdaw localhost" --ignore-certificate-errors
+
 docker run -d -p 80:80 -p 443:443 serverdocker
 
 docker login
