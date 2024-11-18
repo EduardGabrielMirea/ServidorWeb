@@ -41,3 +41,5 @@ docker tag serverdocker:latest eduardgabriel/serverdocker:latest
 docker push eduardgabriel/serverdocker:latest
 
 docker image inspect eduardgabriel/serverdocker:latest
+
+docker run -d -p 80:80 -p 443:443 eduardgabriel/serverdocker:latest
