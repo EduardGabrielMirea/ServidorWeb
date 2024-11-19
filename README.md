@@ -32,6 +32,8 @@ docker restart eager_cray
 
 google-chrome --incognito --host-resolver-rules="MAP serverwebdaw localhost" --ignore-certificate-errors
 
+google-chrome --incognito --host-resolver-rules="MAP serverwebdaw 127.0.0.1" --ignore-certificate-errors
+
 docker run -d -p 80:80 -p 443:443 serverdocker
 
 docker login
